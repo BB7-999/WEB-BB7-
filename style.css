@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+                url("https://cdn.discordapp.com/attachments/1466296373262422127/1472065201418276916/image.png?ex=6991dfcd&is=69908e4d&hm=795116c191dd74d58cdecf8e1173c057153bc5f4289da0de77718fa3aa4c266e&");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.card {
+    background: rgba(0,0,0,0.7);
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    color: rgb(247, 0, 0);
+    backdrop-filter: blur(10px);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: red;
+    border: none;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}
